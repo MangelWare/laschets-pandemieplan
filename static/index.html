@@ -40,6 +40,7 @@
           <button type="button" id="startbutton" class="btn btn-light btn-lg btn-start" onclick="onStart()"><i
               class="fas fa-dice"></i>Würfeln!</button>
           <button type="button" class="btn btn-dark btn-lg" onclick="showSourceImage()">Quelle</button>
+          <button type="button" class="btn btn-dark btn-lg" onclick="redirectToGithub()">GitHub</button>
         </div>
       </div>
     </div>
@@ -64,6 +65,10 @@
   function showSourceImage() {
     console.log("Simulating click...");
     window.location.href = "source.png";
+  }
+
+  function redirectToGithub() {
+    window.location.href = "https://github.com/MangelWare/laschets-pandemieplan";
   }
 </script>
 

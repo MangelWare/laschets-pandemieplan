@@ -1,0 +1,54 @@
+body {
+  background-color: #001524;
+}
+
+h2 {
+  text-align: center;
+  color: #ffecd1;
+}
+
+.main-c {
+  width: 90%;
+  margin: auto;
+  background-color: #15616d;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+div.inner {
+  width: 90%;
+  margin: auto;
+}
+
+div.laschet {
+  width: 200px;
+  margin: auto;
+}
+
+#textbox {
+  text-align: center;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  background-color: #ffecd1;
+  font-size: x-large;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.btn-start {
+  margin: auto;
+  width: 50%;
+  display: block;
+  background-color: #ffecd1;
+}
+
+#buttongroup {
+  width: 50%;
+  margin: auto;
+}
+
+.invisible {
+  display: none;
+}
